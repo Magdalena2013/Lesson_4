@@ -1,0 +1,39 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: lenear-gredient(125deg, skyblue, rgb(105, 199, 253), rgb(162, 252, 249), rgb(41, 118, 162), rgb(88, 123, 219));
+    color: rgb(56, 143, 143);
+}
+.my_h1{
+    color: aliceblue;
+    font-size: 72 px;
+    font-family: 'Lobster';
+    font-weight: bold;
+    text-align: center;
+    margin-left: 50%;
+    margin-right: 3%;
+}
+.cont{
+    width: 50%;
+    height: 350 px;
+    align-items: center;
+}
+.cont > image{
+    width: 100vw;
+    height: 800px;
+}
+.cont > a{
+    text-decoration: none;
+    font-size: 35px;
+    color: rgb(21, 77, 98);
+    font-family: ;
+    margin-left: 50%;
+    margin-right: 3%;
+}
+.cont > a:hover{
+    color: rgb(136, 174, 255);
+}
+.designer_cont{
+    display: flex;
+    justify-content: space-around;
+}
